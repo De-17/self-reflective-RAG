@@ -16,9 +16,8 @@ This project implements a self reflective RAG, seamlessly integrating multiple k
 |-------------------|------------|-----------------------------------------------------------------------|
 | RAG               | LangGraph  | Framework used for building the RAG model                             |
 | Output Tracing    | LangSmith  | Tool used for tracing and evaluating model outputs                    |
-| Indexing          | Pinecone   | Service used for indexing and managing the knowledge base             |
-| Web Searching     | Tavily     | Tool used for retrieving information from the web                     |
-| LLM               | OpenAI     | Provides the language model for text generation                       |
+| Indexing          | chromadb   | Service used for indexing and managing the knowledge base             |
+| LLM               | Gemini     | Provides the language model for text generation                       |
 | Chat Interface    | Gradio     | Interface for interacting with the RAG model                          |
 | SQL Database      | SQLite     | Database used for querying business data and for storing RAG's memory |
 
